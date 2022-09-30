@@ -1,6 +1,6 @@
 +++
 archetype = ""
-title = "Futbol"
+title = "Futbol" 
 weight = 1
 +++
 

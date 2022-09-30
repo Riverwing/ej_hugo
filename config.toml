@@ -2,3 +2,65 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme=['hugo-theme-relearn']
+
+defaultContentLanguage = "es"
+
+[params]
+themeVariant="neon"
+
+
+
+landingPageURL = "http://cpilosenlaces.com"
+landingPageName = "<i class='fas fa-university'></i> CPI Los Enlaces"
+
+
+
+
+[Languages]
+    [Languages.es]
+        title = "Ejemplo para el uso de idiomas"
+        weight = 1
+        languageName = "Español"
+    [Languages.en]
+        title = "Example use language"
+        weight = 2
+        languageName = "English"
+   [Languages.fr]
+        title = "Exemple d'utilisation des langues"
+        weight = 3
+        languageName = "Français"
+        
+
+
+[[Languages.es.menu.shortcuts]]
+name="<i class='fab fa-php'></i>   Lenguaje php"
+url="https://php.net"
+weight=1
+
+[[Languages.en.menu.shortcuts]]
+name="<i class='fab fa-php'></i>   Lenguage php"
+url="https://php.net"
+weight=1
+
+[[Languages.fr.menu.shortcuts]]
+name="<i class='fab fa-php'></i>   lange php"
+url="https://php.net"
+weight=1
+
+
+
+
+[[Languages.es.menu.shortcuts]]
+name="<i class='far fa-question-circle'></i>   Ejercicios resueltos"
+identified=""
+url="http://manuel.infenlaces.com/dwes/ejercicios/"
+weight=2
+
+[[Languages.es.menu.shortcuts]]
+name="<i class='fab fa-futbol'></i>   Diario Marca"
+identified=""
+url="https://www.marca.com/"
+weight=3
+
+
+
