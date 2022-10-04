@@ -1,0 +1,24 @@
+{{- partial "page-meta.hugo" . }}
+
+{{- partial "output-partial.hugo" (dict "base" "header" "page" . "parameter" .) }}
+
+
+<h1>Listado de canales</h1>
+
+
+<h1>Nombre del canal</h1>
+
+<ol>
+{{ range  .Site.Data.tv }} <!-- { sirve para decir que es código no html} Bucle for que recorrerá los elemento de los array de los json-->
+
+<li style="color: blue;">{{ .name }}</li>
+
+    {{ range .channels}}
+    <a href="{{.web}}">
+    <img class="inline" src=" {{.logo}}" alt="{{.name}}">
+    </a>
+    {{ end }}
+{{ end }}
+</ol>
+
+{{- partial "output-partial.hugo" (dict "base" "footer" "page" . "parameter" .) }}

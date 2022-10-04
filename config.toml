@@ -21,14 +21,19 @@ landingPageName = "<i class='fas fa-university'></i> CPI Los Enlaces"
         title = "Ejemplo para el uso de idiomas"
         weight = 1
         languageName = "Español"
+        contentDir = "content/es"
     [Languages.en]
         title = "Example use language"
         weight = 2
         languageName = "English"
+        contentDir = "content/en"
+
    [Languages.fr]
         title = "Exemple d'utilisation des langues"
         weight = 3
         languageName = "Français"
+        contentDir = "content/fr"
+
         
 
 
